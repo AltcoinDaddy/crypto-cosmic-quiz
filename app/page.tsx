@@ -14,7 +14,7 @@
  }
 
  const CHAINBASE_API_KEY = process.env.NEXT_PUBLIC_CHAINBASE_KEY;
- const CHAINBASE_API_URL = "https:api.chainbase.online/v1";
+ const CHAINBASE_API_URL = "https://api.chainbase.online/v1";
 
  const CryptoTriviaGame: React.FC = () => {
    const [questions, setQuestions] = useState<Question[]>([]);
